@@ -1,16 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "lib": ["es6"],
-      "strict": true,
-      "esModuleInterop": true,
-      "outDir": "./build",
-      "sourceMap": true,
-      "paths": {
-        "@/*": ["./src/*"]
-      }
-    },
-    "include": ["src/**/*.ts", "index.ts"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
-  }
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "lib": ["es6"],
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
